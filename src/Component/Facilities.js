@@ -17,7 +17,7 @@ const Facilities = () => {
         backgroundImage: "url('https://img.freepik.com/premium-photo/minsk-belarus-may-2018-full-seamless-spherical-hdri-panorama-360-degrees-angle-interior-boudoir-room-newlyweds-elite-hotel-equirectangular-cube-projection-vr-ar-content_97694-4584.jpg?w=1060')", // Replace with your image path
       }}
     >
-      <div className="bg-black/40 h-full rounded-lg mx-4 lg:mx-auto max-w-7xl px-6 lg:px-12 lg:py-10">
+      <div className="bg-black/40 h-full rounded-lg mx-4 lg:mx-auto max-w-7xl px-5 lg:px-12 lg:py-10">
         <h2 className="text-3xl text-white font-bold text-center mb-12 mt-10">Facilities</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {facilities.map((facility, index) => (
